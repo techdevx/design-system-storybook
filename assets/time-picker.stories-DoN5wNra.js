@@ -1,0 +1,5 @@
+import{j as e}from"./jsx-runtime-D_zvdyIk.js";import{r as u}from"./index-UiW3gZKV.js";import{T as d,a as g}from"./time-picker-CTqHknY3.js";import"./_commonjsHelpers-CqkleIqs.js";import"./utils-DCADjnpI.js";import"./clock-Dwg6zLXy.js";import"./createLucideIcon-BBGjgC4Q.js";const k={title:"Forms/TimePicker",component:d,tags:["autodocs"]};function l(){const[a,s]=u.useState("09:30");return e.jsx("div",{className:"w-40",children:e.jsx(d,{value:a,onValueChange:s})})}function x(){const[a,s]=u.useState({from:"09:00",to:"17:00"});return e.jsx(g,{value:a,onValueChange:s})}const r={render:()=>e.jsx(l,{})},o={render:()=>e.jsx(x,{})};var t,n,m;r.parameters={...r.parameters,docs:{...(t=r.parameters)==null?void 0:t.docs,source:{originalSource:`{
+  render: () => <SingleDemo />
+}`,...(m=(n=r.parameters)==null?void 0:n.docs)==null?void 0:m.source}}};var i,c,p;o.parameters={...o.parameters,docs:{...(i=o.parameters)==null?void 0:i.docs,source:{originalSource:`{
+  render: () => <RangeDemo />
+}`,...(p=(c=o.parameters)==null?void 0:c.docs)==null?void 0:p.source}}};const v=["Single","Range"];export{o as Range,r as Single,v as __namedExportsOrder,k as default};

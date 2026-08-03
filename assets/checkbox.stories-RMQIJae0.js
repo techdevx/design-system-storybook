@@ -1,0 +1,6 @@
+import{j as t}from"./jsx-runtime-D_zvdyIk.js";import{C as s}from"./checkbox-B6_V2kJ1.js";import{L as i}from"./label-C35axE7E.js";import"./index-UiW3gZKV.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-DOqdsVs_.js";import"./index-C54PEBdP.js";import"./index-Df4SqoBz.js";import"./index-BA8a886m.js";import"./index-DFyD2OK_.js";import"./index-CLXXI_3V.js";import"./index-DlT2NeN9.js";import"./index-DvGxcuUR.js";import"./index-3b7XovMV.js";import"./index-BA8NevWa.js";import"./utils-DCADjnpI.js";import"./check-CjIdO5i9.js";import"./createLucideIcon-BBGjgC4Q.js";const A={title:"Forms/Checkbox",component:s,tags:["autodocs"]},r={render:()=>t.jsxs("div",{className:"flex items-center gap-2",children:[t.jsx(s,{id:"terms"}),t.jsx(i,{htmlFor:"terms",children:"Accept terms and conditions"})]})};var e,o,m;r.parameters={...r.parameters,docs:{...(e=r.parameters)==null?void 0:e.docs,source:{originalSource:`{
+  render: () => <div className="flex items-center gap-2">
+      <Checkbox id="terms" />
+      <Label htmlFor="terms">Accept terms and conditions</Label>
+    </div>
+}`,...(m=(o=r.parameters)==null?void 0:o.docs)==null?void 0:m.source}}};const E=["WithLabel"];export{r as WithLabel,E as __namedExportsOrder,A as default};

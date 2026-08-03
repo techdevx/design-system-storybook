@@ -1,0 +1,7 @@
+import{j as t}from"./jsx-runtime-D_zvdyIk.js";import{S as c}from"./index-DOqdsVs_.js";import{c as p}from"./utils-DCADjnpI.js";import{B as m}from"./button-BksSy-NO.js";import{S as u}from"./search-CzOg3AsL.js";import"./index-UiW3gZKV.js";import"./_commonjsHelpers-CqkleIqs.js";import"./button.variants-CM5mvIUD.js";import"./index-CkIaN0ex.js";import"./spinner-Fek3w9J4.js";import"./createLucideIcon-BBGjgC4Q.js";function o({asChild:i=!1,className:r,...l}){const d=i?c:"span";return t.jsx(d,{"data-slot":"visually-hidden",className:p("sr-only",r),...l})}o.__docgenInfo={description:`Hides content visually while keeping it for screen readers — icon-button
+labels, table captions, skip links, live-region text.`,methods:[],displayName:"VisuallyHidden",props:{asChild:{required:!1,tsType:{name:"boolean"},description:"Render into the child element instead of a span.",defaultValue:{value:"false",computed:!1}}}};const g={title:"UI/VisuallyHidden",component:o,tags:["autodocs"]},e={render:()=>t.jsxs(m,{variant:"outline",size:"icon",children:[t.jsx(u,{}),t.jsx(o,{children:"Search"})]})};var n,s,a;e.parameters={...e.parameters,docs:{...(n=e.parameters)==null?void 0:n.docs,source:{originalSource:`{
+  render: () => <Button variant="outline" size="icon">
+      <Search />
+      <VisuallyHidden>Search</VisuallyHidden>
+    </Button>
+}`,...(a=(s=e.parameters)==null?void 0:s.docs)==null?void 0:a.source}}};const I=["IconButtonLabel"];export{e as IconButtonLabel,I as __namedExportsOrder,g as default};
