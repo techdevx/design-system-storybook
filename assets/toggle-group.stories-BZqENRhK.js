@@ -1,0 +1,7 @@
+import{j as e}from"./jsx-runtime-D_zvdyIk.js";import{T as m,a as t}from"./toggle-group-D43-MSt3.js";import"./index-CHISt2gJ.js";import"./_commonjsHelpers-CqkleIqs.js";import"./index-9vGS739Q.js";import"./index-BG9WkkVi.js";import"./index-CHIrpB_0.js";import"./index-fp2UqmYR.js";import"./index-BGcWswtl.js";import"./index-DDTn7Jwx.js";import"./index-Df4SqoBz.js";import"./index-C4SvNbI-.js";import"./index-LbuuwEcL.js";import"./index-CuVVNN4Y.js";import"./index-sAPDUP7t.js";import"./index-Ba3Mue6X.js";import"./index-DjQRBsxk.js";import"./toggle.variants-BX2sR03o.js";import"./index-CkIaN0ex.js";import"./utils-DCADjnpI.js";const E={title:"Forms/ToggleGroup",tags:["autodocs"]},r={render:()=>e.jsxs(m,{type:"single",defaultValue:"center",variant:"outline",children:[e.jsx(t,{value:"left",children:"Left"}),e.jsx(t,{value:"center",children:"Center"}),e.jsx(t,{value:"right",children:"Right"})]})};var o,i,p;r.parameters={...r.parameters,docs:{...(o=r.parameters)==null?void 0:o.docs,source:{originalSource:`{
+  render: () => <ToggleGroup type="single" defaultValue="center" variant="outline">
+      <ToggleGroupItem value="left">Left</ToggleGroupItem>
+      <ToggleGroupItem value="center">Center</ToggleGroupItem>
+      <ToggleGroupItem value="right">Right</ToggleGroupItem>
+    </ToggleGroup>
+}`,...(p=(i=r.parameters)==null?void 0:i.docs)==null?void 0:p.source}}};const L=["Single"];export{r as Single,L as __namedExportsOrder,E as default};

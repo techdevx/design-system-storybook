@@ -1,0 +1,11 @@
+import{j as e}from"./jsx-runtime-D_zvdyIk.js";import{r as d}from"./index-CHISt2gJ.js";import{c}from"./utils-DCADjnpI.js";import{c as o}from"./createLucideIcon-W0-uuUzi.js";/**
+ * @license lucide-react v0.545.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const l=[["path",{d:"M10.733 5.076a10.744 10.744 0 0 1 11.205 6.575 1 1 0 0 1 0 .696 10.747 10.747 0 0 1-1.444 2.49",key:"ct8e1f"}],["path",{d:"M14.084 14.158a3 3 0 0 1-4.242-4.242",key:"151rxh"}],["path",{d:"M17.479 17.499a10.75 10.75 0 0 1-15.417-5.151 1 1 0 0 1 0-.696 10.75 10.75 0 0 1 4.446-5.143",key:"13bj9a"}],["path",{d:"m2 2 20 20",key:"1ooewy"}]],u=o("eye-off",l);/**
+ * @license lucide-react v0.545.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const f=[["path",{d:"M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0",key:"1nclc0"}],["circle",{cx:"12",cy:"12",r:"3",key:"1v7zrd"}]],p=o("eye",f);function m({className:i,ref:r,...t}){const[s,a]=d.useState(!1);return e.jsxs("div",{className:"relative",children:[e.jsx("input",{ref:r,type:s?"text":"password",className:c("flex h-9 w-full rounded-md border border-input bg-background px-3 pr-9 text-sm shadow-sm transition-colors","placeholder:text-muted-foreground","focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background","disabled:cursor-not-allowed disabled:opacity-50","aria-[invalid=true]:border-destructive",i),...t}),e.jsx("button",{type:"button","aria-label":s?"Hide password":"Show password","aria-pressed":s,onClick:()=>a(n=>!n),disabled:t.disabled,className:"absolute right-2 top-1/2 flex size-6 -translate-y-1/2 items-center justify-center rounded-sm text-muted-foreground outline-none hover:text-foreground focus-visible:ring-2 focus-visible:ring-ring disabled:opacity-50",children:s?e.jsx(u,{className:"size-4"}):e.jsx(p,{className:"size-4"})})]})}m.__docgenInfo={description:"Password field with a show/hide toggle.",methods:[],displayName:"PasswordInput",props:{ref:{required:!1,tsType:{name:"ReactRef",raw:"React.Ref<HTMLInputElement>",elements:[{name:"HTMLInputElement"}]},description:""}},composes:["Omit"]};export{m as P};
