@@ -1,0 +1,1 @@
+import{r as s}from"./index-CHISt2gJ.js";function c(e){const r=s.useCallback(t=>{const n=window.matchMedia(e);return n.addEventListener("change",t),()=>n.removeEventListener("change",t)},[e]),a=()=>window.matchMedia(e).matches,o=()=>!1;return s.useSyncExternalStore(r,a,o)}function u(e=768){return c(`(max-width: ${e-1}px)`)}export{u};
